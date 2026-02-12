@@ -1,2 +1,85 @@
+# Question 01. Reverse string using slicing
 s = "Hello World"
 print("Reversed String:", s[::-1])
+
+# Question 02. Reverse string using reversed()
+s = "Hello World"
+print("Reversed String:", "".join(reversed(s)))
+
+# Question 03. Reverse string using while loop
+s = "Hello World"
+i = len(s) - 1
+rev = ""
+
+while i >= 0:
+    rev += s[i]
+    i -= 1
+
+print("Reversed String:", rev)
+
+# Question 04. Write a program to reverse the order of words in a given string
+sentence = "Python is easy"
+words = sentence.split()
+print("Reversed Word Order:", " ".join(words[::-1]))
+
+# Question 05. Write a program to reverse internal content of each word
+sentence = "Python is easy"
+result = " ".join(word[::-1] for word in sentence.split())
+print("Reversed Each Word:", result)
+
+# Question 06. Program to merge characters of two strings alternatively
+s1 = "abcdefg"
+s2 = "12345"
+
+result = ""
+
+for a, b in zip(s1, s2):
+    result += a + b
+
+result += s1[len(s2):] + s2[len(s1):]
+
+print("Merged String:", result)
+
+# Question 07. Program to sort characters of string (alphabets first, then digits)
+s = "b4a1d3"
+
+alphabets = []
+digits = []
+
+for ch in s:
+    if ch.isalpha():
+        alphabets.append(ch)
+    elif ch.isdigit():
+        digits.append(ch)
+
+alphabets.sort()
+digits.sort()
+
+print("Sorted String:", "".join(alphabets + digits))
+
+# Question 08. Program to remove duplicate characters from a string
+s = "programming"
+result = ""
+
+for ch in s:
+    if ch not in result:
+        result += ch
+
+print("Without Duplicates:", result)
+
+# Question 09. Program to find number of occurrences of each vowel
+s = "education"
+vowels = "aeiou"
+
+for v in vowels:
+    print(v, ":", s.count(v))
+
+# Question 10. Program to check whether two strings are anagrams or not
+s1 = "listen"
+s2 = "silent"
+
+if sorted(s1) == sorted(s2):
+    print("Anagram")
+else:
+    print("Not Anagram")
+
