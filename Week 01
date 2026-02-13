@@ -29,7 +29,7 @@ print("Reversed Each Word:", result)
 
 # Question 06. Program to merge characters of two strings alternatively
 s1 = "abcdefg"
-s2 = "12345"
+s2 = "123456"
 
 result = ""
 
