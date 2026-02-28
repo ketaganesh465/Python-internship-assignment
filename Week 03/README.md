@@ -1,35 +1,73 @@
 📅 Week 03 - Dictionary Programs
-Programs Implemented:
 
-Retrieve value using get() with default value
+✅ Programs Implemented
+1️⃣ Retrieve value using get()
 
-Print all keys from a dictionary using keys()
+Retrieve a value safely.
 
-Print all values from a dictionary using values()
+Return default value if key does not exist.
 
-Print key–value pairs using items()
+2️⃣ Print all keys using keys()
 
-Add and update values using update()
+Access and display dictionary keys.
 
-Remove a key and return its value using pop()
+3️⃣ Print all values using values()
 
-Remove the last inserted item using popitem()
+Access and display dictionary values.
 
-Remove all elements using clear()
+4️⃣ Print key–value pairs using items()
 
-Create a copy of a dictionary using copy()
+Iterate through dictionary elements.
 
-Add a key if missing using setdefault()
+5️⃣ Update dictionary using update()
 
-Create dictionary using fromkeys()
+Add new key-value pairs.
 
-Create dictionary from two lists using zip()
+Modify existing values.
 
-Check if a key exists in a dictionary
+6️⃣ Remove key using pop()
 
-Find the length of a dictionary using len()
+Remove a specific key.
 
-Merge two dictionaries into one
+Store removed value.
+
+7️⃣ Remove last item using popitem()
+
+Deletes the most recently added pair.
+
+8️⃣ Remove all items using clear()
+
+Empties the dictionary.
+
+9️⃣ Copy dictionary using copy()
+
+Create a duplicate dictionary.
+
+Ensure original remains unchanged.
+
+🔟 Add key if missing using setdefault()
+
+Inserts key with default value if not present.
+
+1️⃣1️⃣ Create dictionary using fromkeys()
+
+Create dictionary from list of keys.
+
+1️⃣2️⃣ Create dictionary from two lists
+
+Combine keys & values using zip().
+
+1️⃣3️⃣ Check if key exists
+
+Use in operator.
+
+1️⃣4️⃣ Find dictionary length
+
+Use len() function.
+
+1️⃣5️⃣ Merge two dictionaries
+
+Combine dictionaries into one.
 
 
 🛠 Tools Used
